@@ -12,6 +12,7 @@ quantity = int(quantity)
 method = input("\nIs this carr out or delivery:  ")
 
 #Adding computational thinking
+
 salesTax = 1.1
 pizzaCost = 14.99
 total = (pizzaCost * quantity) * salesTax
