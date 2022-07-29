@@ -15,7 +15,7 @@ while size.lower() != "small" and size.lower() != "medium" and size.lower() != "
     size = input("Invalid value.  Please enter small, medium, or large:  ")
 flavor = input("\nEnter the flavor of the pizza:  ")
 crustType = input("\nWhat type of crust would you like:  ")
-quantity = input("\nHow many of these would you like to order:  ")
+quantity = input("\nHow many of these would you like to order?  Enter a numeric value:  ")
 while not quantity.isdigit():
     quantity = input("\nValue not recognized.  Please enter a numeric value:  ")
 quantity = int(quantity)
@@ -30,7 +30,7 @@ else:
 #Adding computational thinking
 
 salesTax = 1.1
-pizzaCost = 0
+pizzaCost:
 if size.lower() =="small":
     pizzaCost = 8.99
 elif size.lower() == "medium":
